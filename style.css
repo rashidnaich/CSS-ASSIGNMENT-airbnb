@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.first{
+    cursor: pointer;
+}
+
+.second{
+    display: block;
+    
+    font-weight: 600;
+}
+
+
+.second a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.second a:hover{
+    border: 0.8px;
+    border-radius: 20px;
+    background-color: rgba(128, 121, 121, 0.225);
+}
+
+i{
+    cursor: pointer;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.third ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    margin: 100px 0px 0px 90px;
+}
+
+.image img{
+    border-radius: 20px
+}
+.not{
+    color: gold;
+}
+
+.fa-globe{
+    font-size: 18px;
+}
+.fa-bars{
+    font-size: 13px;
+}
+
+.third a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.main{
+    display: flex;
+    gap: 80px;
+    border: 1px solid;
+    margin: auto;
+    width: fit-content;
+    border-radius: 30px;
+    padding:10px 100px;
+    align-items: center;
+}
+
+.p{
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+.fa-magnifying-glass{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #E51D55;
+    border-radius: 20px;
+    padding: 10px;
+}
+
